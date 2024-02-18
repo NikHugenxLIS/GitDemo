@@ -26,6 +26,7 @@ public class StandAlone2
 	loginpage.goTo();
 	loginpage.loginApplication("nikkikumar2017@gmail.com", "23MN@ak1");
 	
+	driver.close();
 	
 	
 
