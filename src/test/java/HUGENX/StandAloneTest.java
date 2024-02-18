@@ -37,7 +37,9 @@ public class StandAloneTest
 		//w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".ng-animating")));
 		w.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
 		driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
-		
+		System.out.println("hello");
+		System.out.println("hello");
+		System.out.println("hello");
 	}
 
 }
