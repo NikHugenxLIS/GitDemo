@@ -25,8 +25,12 @@ public class StandAlone2
 	LoginPage loginpage = new LoginPage(driver);
 	loginpage.goTo();
 	loginpage.loginApplication("nikkikumar2017@gmail.com", "23MN@ak1");
-	
+	System.out.println("hello");
 	driver.close();
+	
+	//
+	driver.quit();
+	
 	
 	
 
